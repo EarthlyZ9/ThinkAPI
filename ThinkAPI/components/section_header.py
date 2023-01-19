@@ -16,9 +16,9 @@ def section_header(name, color_index):
         "bottom": "0",
         "width": "0",
         "height": "0",
-        "border-left": f"1.5rem solid {previous}",
-        "border-top": f"1.5rem solid {color}",
-        "border-bottom": f"1.5rem solid {color}",
+        "border_left": f"1.5rem solid {previous}",
+        "border_top": f"1.5rem solid {color}",
+        "border_bottom": f"1.5rem solid {color}",
     }
 
     before_style = {
@@ -28,9 +28,9 @@ def section_header(name, color_index):
         "bottom": "0",
         "width": "0",
         "height": "0",
-        "border-left": f"1.5rem solid {color}",
-        "border-top": "1.5rem solid transparent",
-        "border-bottom": "1.5rem solid transparent",
+        "border_left": f"1.5rem solid {color}",
+        "border_top": "1.5rem solid transparent",
+        "border_bottom": "1.5rem solid transparent",
     }
 
     if color_index == 4:
