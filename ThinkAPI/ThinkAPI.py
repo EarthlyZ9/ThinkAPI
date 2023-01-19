@@ -1,4 +1,6 @@
 """Welcome to Pynecone! This file outlines the steps to create a basic app."""
+import datetime
+
 from ThinkAPI.pages.think_page import think_page
 from ThinkAPI.global_state import AppState
 from ThinkAPI.global_style import style as global_style
