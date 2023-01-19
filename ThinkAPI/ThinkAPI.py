@@ -37,9 +37,11 @@ def think():
 
 
 # Add state and page to the app.
-app = pc.App(state=AppState, style=global_style, stylesheets=[
-    "https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap"
-])
+app = pc.App(
+    state=AppState,
+    style=global_style,
+    stylesheets=["https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap"],
+)
 app.add_page(index, title="ThinkAPI")
 app.add_page(think)
 app.compile()
